@@ -1,0 +1,16 @@
+name: VecteurEnergy_Claim
+main: fr.smourad.vec.Claim
+version: 1.0
+description: plugin de claim pour vecteur energy
+depend: [WorldEdit, WorldGuard, Vault]
+
+commands:
+  zone:
+    usage: /<command> <trust, untrust, claim, delete, trustlist>
+    description: Claim une zone
+  adminzone:
+    usage: /<command> <get, delete>
+    description: Commande admin pour ce plugin
+  blocks:
+    usage: /<command>
+    description: Acheter des blocs
